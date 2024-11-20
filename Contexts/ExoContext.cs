@@ -31,5 +31,7 @@ optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;"
 }
 }
 public DbSet<Projeto> Projetos { get; set; }
-}
+        //public object Usuarios { get; internal set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+    }
 }
